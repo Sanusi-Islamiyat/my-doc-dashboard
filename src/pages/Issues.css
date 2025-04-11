@@ -1,0 +1,83 @@
+.issues-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+    min-height: 100vh;
+  }
+  
+  .intro-card {
+    background-color:#294172;
+    border: none;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    color: white;
+  }
+  
+  .contribution-card {
+    background: #f5fafd;
+    border: none;
+    border-radius: 8px;
+    padding: 2.5rem;
+    text-align: left;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    line-height: 28px;
+  }
+  
+  .contribution-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .status-badge {
+    font-size: 0.8rem;
+    padding: 0.4em 0.7em;
+    border-radius: 0.5rem;
+  }
+
+  
+  .lead  {
+    font-size: 16px;
+  }
+
+  .pre-r, .adv-issues {
+background-color: #fff;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+  }
+
+  .adv-issues {
+    margin-block-start: 40px;
+  }
+  
+h3 {
+  margin-inline-start: 50px;
+}
+
+.approved  {
+  font-size: 14px;
+  margin-block-start: 8px;
+}
+
+.butt-ons {
+  margin: 20px 0;
+}
+
+
+.task {
+background-color:#3C97D6 ;
+
+}
+
+.solution {
+  background-color: transparent;
+  border: 1px solid #3C97D6;
+  color: #3C97D6;
+
+}
+.task:hover, .solution:hover {
+  color: rgb(255, 99, 71);
+  border:1px solid rgb(255, 99, 71);
+  background-color: transparent;
+}
