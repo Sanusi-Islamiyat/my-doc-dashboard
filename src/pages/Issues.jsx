@@ -50,51 +50,32 @@ const contributionsSection1 = [
 
 const contributionsSection2 = [
   {
-    title: "React Routing Best Practices",
-    description: "Clean and structured navigation.",
+    title: "Create a DEI Event Planning Guide",
+    description: "Here I drafted a  guide to help create events where everyone feels welcome, valued, and heard. It offers practical steps to ensure diversity, equity, and inclusion are woven into every stage of your event—from planning and promotion to execution and follow-up.",
     status: "Approved",
-    taskLink: "#",
-    solutionLink: "#",
-    date: "2025-04-04",
-  },
-  {
-    title: "State Management with Context API",
-    description: "Simplifying state across components.",
-    status: "Pending",
-    taskLink: "#",
-    solutionLink: "#",
-  },
-  {
-    title: "Accessibility in Web Apps",
-    description: "Making apps inclusive for all users.",
-    status: "Approved",
-    taskLink: "#",
-    solutionLink: "#",
-    date: "2025-04-05",
-  },
-  {
-    title: "Animations with AOS",
-    description: "Subtle animations to enhance UX.",
-    status: "Approved",
-    taskLink: "#",
-    solutionLink: "#",
-    date: "2025-04-06",
-  },
-  {
-    title: "Deploying to Netlify",
-    description: "Fast, free, and effective deployments.",
-    status: "Pending",
-    taskLink: "#",
-    solutionLink: "#",
-  },
-  {
-    title: "Creating a Personal Portfolio",
-    description: "A beautiful dev portfolio using React.",
-    status: "Approved",
-    taskLink: "#",
-    solutionLink: "#",
+    taskLink: "https://gitlab.com/fedora/dei/outreachy-internship/-/issues/6#note_2426795671",
+    solutionLink: "https://medium.com/@sanusiislamiyat125/mastering-fedora-event-planning-a-guide-to-hosting-impactful-inclusive-events-6cf6fa1ead36",
     date: "2025-04-07",
   },
+  
+  {
+    title: "Audit and Improvement Proposal of DEI Docs Page",
+    description: "I reviewed the DEI docs page to spot gaps in clarity, accessibility, and inclusiveness. Then I put together a simple proposal with ideas to improve its structure, tone, and overall impact.",
+    status: "Approved",
+    taskLink: "https://gitlab.com/fedora/dei/outreachy-internship/-/issues/7#note_2438660032",
+    solutionLink: "https://docs.google.com/document/d/1czktsAqEcZR7UwO5yUTxwMqKoHSAJ--dt9AQUsHM9ZE/edit?tab=t.0",
+    date: "2025-04-10",
+  },
+  {
+    title: "Create a High-level Timeline for Your Outreachy Application",
+    description: "I mapped out a high-level timeline for my Outreachy application to stay focused and intentional. It outlines key phases like onboarding, contribution period, proposal drafting, and community engagement — helping me track progress and stay aligned with my goals throughout the process.",
+    status: "Pending",
+    taskLink: "#",
+    solutionLink: "#",
+  
+  },
+
+  
 ];
 
 

@@ -7,11 +7,11 @@ import "aos/dist/aos.css";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Issues from "./pages/Issues";
-import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
+import Discussions from "./pages/Discussions";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -58,7 +58,7 @@ const App = () => {
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/issues" element={<Issues />} />
-                  <Route path="/projects" element={<Projects />} />
+                  <Route path="/discussions" element={<Discussions />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<Contact />} />
                 </Routes>

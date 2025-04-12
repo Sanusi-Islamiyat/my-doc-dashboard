@@ -8,6 +8,7 @@ import {
   FaBars,
   FaTimes,
   FaTicketAlt,
+  FaDiscourse,
 } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 import "./Sidebar.css";
@@ -20,7 +21,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="mobile-toggle">
-        <Button variant="outline-light" onClick={toggleSidebar}>
+        <Button variant="outline-dark" onClick={toggleSidebar}>
           {isOpen ? <FaTimes /> : <FaBars />}
         </Button>
       </div>
@@ -34,7 +35,7 @@ const Sidebar = () => {
           <ul>
             <li><Link to="/" onClick={toggleSidebar}><FaHome /> Home</Link></li>
             <li><Link to="/issues" onClick={toggleSidebar}><FaTicketAlt /> Issues</Link></li>
-            <li><Link to="/projects" onClick={toggleSidebar}><FaProjectDiagram /> Projects</Link></li>
+            <li><Link to="/projects" onClick={toggleSidebar}><FaDiscourse /> Discussions</Link></li>
             <li><Link to="/about" onClick={toggleSidebar}><FaInfoCircle /> About Me</Link></li>
             <li><Link to="/contact" onClick={toggleSidebar}><FaEnvelope /> Contact</Link></li>
           </ul>
