@@ -6,7 +6,7 @@
   }
   
   .intro-card {
-    background-color:#294172;
+    background-color:#182641 ;
     border: none;
     margin: 0;
     border-radius: 12px;
@@ -41,20 +41,26 @@
   .lead  {
     font-size: 16px;
   }
-
+ .challenge-post {
+  text-align: left;
+  margin-inline-start: 50px;
+  line-height: 28px;
+ }
   .pre-r, .adv-issues {
 background-color: #fff;
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 border-radius: 12px;
   }
 
+  .pre-p, .adv-p, .chg-p, .issue-s {
+    color: #1e3053;
+    margin-inline-start: 50px;
+  }
+
   .adv-issues {
     margin-block-start: 40px;
   }
   
-h3 {
-  margin-inline-start: 50px;
-}
 
 .approved  {
   font-size: 14px;
@@ -68,6 +74,7 @@ h3 {
 
 .task {
 background-color:#3C97D6 ;
+border: none;
 
 }
 

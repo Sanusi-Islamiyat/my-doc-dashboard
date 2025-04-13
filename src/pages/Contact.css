@@ -1,0 +1,62 @@
+.contact-container {
+        padding: 3rem 1rem;
+        max-width: 100%;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+      
+      
+  }
+  
+  .contact-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-inline-end: 100px;
+  }
+  
+ 
+  
+  .contact-icons a {
+    margin: 0 10px;
+    font-size: 1.8rem;
+    color: #182641;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-icons a:hover {
+    color: rgb(255, 99, 71);
+  }
+  
+  .sub-button {
+    background-color: #182641 ;
+    border: none;
+    margin-block-start: 40px;
+
+  }
+
+  .sub-button:hover {
+    border: 1px solid rgb(255, 99, 71);
+    color: rgb(255, 99, 71);
+    background-color: transparent;
+  }
+
+  
+  .contact-container form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+
+.cnt-me {
+  margin-block-end: 40px;
+  margin-inline-start: 20px;
+}
+
+.name, .mail {
+  margin-block-end: 40px;
+}

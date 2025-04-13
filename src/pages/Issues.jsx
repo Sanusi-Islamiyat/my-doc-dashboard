@@ -132,7 +132,7 @@ const Issues = () => {
       {/* Title Section */}
       <section className="issues-title-section" data-aos="fade-down">
         <Container className="py-5 text-center">
-          <Card className="p-4 shadow intro-card bg-dark text-white">
+          <Card className="p-4 shadow intro-card text-white">
             <Card.Body>
               <h1 className="mb-3">Issues Documentation</h1>
               <p className="lead text-light opacity-75">
@@ -147,7 +147,7 @@ const Issues = () => {
       {/* Section 1: 5 Cards */}
       <section className="issues-cards-section">
         <Container className="py-4 pre-r">
-        <h3 className="mb-3">Prerequsite Issues</h3>
+        <h3 className="mb-3 pre-p">Prerequsite Issues</h3>
           {contributionsSection1.map((item, idx) => renderCard(item, idx))}
         </Container>
       </section>
@@ -155,7 +155,7 @@ const Issues = () => {
       {/* Section 2: 6 Cards */}
       <section className="issues-cards-section">
         <Container className="py-4 adv-issues">
-        <h3 className="mb-3">Advanced Issues </h3>
+        <h3 className="mb-3 adv-p">Advanced Issues </h3>
           {contributionsSection2.map((item, idx) => renderCard(item, idx))}
         </Container>
       </section>

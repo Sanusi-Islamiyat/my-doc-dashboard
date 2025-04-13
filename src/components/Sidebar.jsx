@@ -35,8 +35,7 @@ const Sidebar = () => {
           <ul>
             <li><Link to="/" onClick={toggleSidebar}><FaHome /> Home</Link></li>
             <li><Link to="/issues" onClick={toggleSidebar}><FaTicketAlt /> Issues</Link></li>
-            <li><Link to="/projects" onClick={toggleSidebar}><FaDiscourse /> Discussions</Link></li>
-            <li><Link to="/about" onClick={toggleSidebar}><FaInfoCircle /> About Me</Link></li>
+            <li><Link to="/discussions" onClick={toggleSidebar}><FaDiscourse /> Discussions</Link></li>
             <li><Link to="/contact" onClick={toggleSidebar}><FaEnvelope /> Contact</Link></li>
           </ul>
         </nav>
