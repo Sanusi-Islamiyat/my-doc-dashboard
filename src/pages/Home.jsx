@@ -26,7 +26,7 @@ const Home = () => {
         {/* Left Section */}
         <div className="dashboard-left" data-aos="fade-right">
           <div className="profile-card">
-          <img src="/src/IMG_8968.JPG" alt="profile picture" className="profile-card-img" />
+          <img src="/IMG_8968.JPG" alt="profile picture" className="profile-card-img" />
             <div className="profile-card-desc"><h3>Islamiyat Sanusi</h3>
             <p className="ux-e">UX Engineer</p>
             <p className="out-c">Outreachy Contributor at Fedora</p>
