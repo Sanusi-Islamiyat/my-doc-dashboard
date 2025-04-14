@@ -69,19 +69,19 @@ const contributionsSection2 = [
   {
     title: "Create a High-level Timeline for Your Outreachy Application",
     description: "I mapped out a high-level timeline for my Outreachy application to stay focused and intentional. It outlines key phases like onboarding, contribution period, proposal drafting, and community engagement — helping me track progress and stay aligned with my goals throughout the process.",
-    status: "Pending",
-    taskLink: "#",
-    solutionLink: "#",
-  
+    status: "Approved",
+    taskLink: "https://gitlab.com/fedora/dei/outreachy-internship/-/issues/10#note_2447878182",
+    solutionLink: "https://docs.google.com/document/d/1MXP_ouPyR8FHW-doQ3JEN2-jI5hsAUZI3GAGzYvhBCE/edit?tab=t.0#heading=h.rhm0vajp2hph",
+    date: "2025-04-14",
   },
 
   {
     title: "Build a Portfolio that Documents All your Contributions",
     description: "I built a portfolio to document all the contributions I made to Fedora as an outreachy applicant. The technologies I used in building this portfolio are React, Bootstrap CSS, vanilla CSS, animated cursor and AOS.",
-    status: "Pending",
-    taskLink: "#",
+    status: "Approved",
+    taskLink: "https://gitlab.com/fedora/dei/outreachy-internship/-/issues/11#note_2449762347",
     solutionLink: "https://my-doc-dashboard.vercel.app/",
-  
+    date: "2025-04-14",
   },
 
   
