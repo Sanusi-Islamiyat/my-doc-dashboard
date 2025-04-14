@@ -45,7 +45,7 @@ const Contact = () => {
       <Row className="align-items-center g-6">
         <Col md={6}>
           <img
-            src="/src/assets/Contact us-bro.png"
+            src="/contact.png"
             alt="Contact illustration"
             className="contact-img"
           />
