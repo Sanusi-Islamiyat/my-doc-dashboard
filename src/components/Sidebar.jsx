@@ -28,7 +28,7 @@ const Sidebar = () => {
 
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         <div className="sidebar-header">
-        <img src="/fedora_dark-background.png" alt="Your Profile" className="profile-img" />
+        <img src="/fedora.png" alt="Your Profile" className="profile-img" />
 
         </div>
 
