@@ -75,6 +75,15 @@ const contributionsSection2 = [
   
   },
 
+  {
+    title: "Build a Portfolio that Documents All your Contributions",
+    description: "I built a portfolio to document all the contributions I made to Fedora as an outreachy applicant. The technologies I used in building this portfolio are React, Bootstrap CSS, vanilla CSS, animated cursor and AOS.",
+    status: "Pending",
+    taskLink: "#",
+    solutionLink: "https://my-doc-dashboard.vercel.app/",
+  
+  },
+
   
 ];
 

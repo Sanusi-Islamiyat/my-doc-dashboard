@@ -9,7 +9,10 @@
   background-color: #f5fafd;
 }
 
-
+.loading-screen {
+  background-image: url('/src/assets/jadon-johnson-zw6QvSggqGU-unsplash.jpg');
+  background-repeat: no-repeat;
+}
 
 /* Home page */
 .home-container {
@@ -41,17 +44,6 @@
   font-size: 1rem;
 }
 
-/* Projects page */
-.projects-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.project-card {
-  margin-top: 20px;
-}
 
 /* About page */
 .about-container {
